@@ -1,0 +1,26 @@
+.input-field {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+  margin: 10px;
+  padding: 12px 5px;
+  color: white;
+}
+
+button.remove {
+  background-color: red;
+}
+button.add {
+  background: green;
+}
+
+button.submit {
+  background-color: blue;
+}

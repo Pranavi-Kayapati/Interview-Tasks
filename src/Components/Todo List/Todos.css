@@ -1,0 +1,40 @@
+.todos-container input {
+  width: 200px;
+  padding: 10px;
+}
+.todos-container button {
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+  margin: 10px;
+  padding: 12px 5px;
+  color: white;
+}
+
+.todos-container .add {
+  background-color: green;
+}
+
+.todos-container .delete {
+  background-color: red;
+}
+.todos-container ul {
+  width: 500px;
+  margin: auto;
+}
+
+.todos-container ul li {
+  list-style-type: upper-roman;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+}
+@media (max-width: 1000px) {
+  .todos-container ul {
+    width: 90%;
+    margin: auto;
+  }
+}
